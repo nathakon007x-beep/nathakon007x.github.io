@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="th">
+
+<head>
+	<meta charset="UTF-8">
+	<title>The Plant House</title>
+</head>
+
+<body bgcolor="#fff3e0">
+<table border="0" align="center" width="1600">
+
+	<tr>
+		<td colspan="4"><img src="images/plant.png" width="100%"></td>
+	</tr>
+
+	<tr>
+
+	<td><a href="หน้าแรก.html"><img src="images/หน้าแรก.png"width="100%"></td>
+
+	<td><a href="หน้าสินค้า.html"><img src="images/หน้าสินค้า.png"width="100%"></td>
+
+	<td><a href="ระบบสั่งซื้อ.html"><img src="images/ระบบสั่งซื้อ.png"width="100%"></td>
+
+	<td><a href="ติดต่อเรา.html"><img src="images/ติดต่อเรา.png"width="100%"></td>
+
+	</tr>
+
+	<tr bgcolor ="#B5BFA5">
+	
+	</tr>
+
+</table>
+<table border="1" align="center" width="1600">
+<tr bgcolor ="#795548"><td colspan="4" align="center" ><h1>🛒ระบบสั่งซื้อสินค้า</h1></td></tr>
+<tr>
+                 <td width="35%"><b>เลือกสินค้า:</b></td>
+                <td>
+                    <select name="product" style="padding: 5px; width: 100%;" required>
+                        <option value="">-- เลือกรายการต้นไม้ --</option>
+                        <option value="monstera">มอนสเตอร่า (450 บาท)</option>
+                        <option value="rubber">ยางอินเดียดำ (390 บาท)</option>
+                        <option value="zz">กวักมรกต (290 บาท)</option>
+                        <option value="cactus">แคคตัสมินิ (120 บาท)</option>
+                        <option value="snake">ลิ้นมังกร (250 บาท)</option>
+                        <option value="pothos">พลูด่าง (99 บาท)</option>
+                        <option value="fern">เฟิร์นบอสตัน (320 บาท)</option>
+                        <option value="fig">ไทรใบกลม (590 บาท)</option>
+                    </select>
+                </td>
+            </tr>
+
+<tr>
+                <td><b>จำนวนชิ้นที่สั่ง:</b></td>
+                <td>
+                    <input type="number" name="quantity" value="1" min="1" max="99" style="padding: 5px; width: 80px;" required> ชิ้น
+                </td>
+            </tr>
+<tr>
+                <td><b>ที่อยู่การจัดส่ง:</b></td>
+                <td>
+                    <textarea name="address" rows="4" placeholder="กรอกที่อยู่จัดส่งโดยละเอียด..." style="padding: 5px; width: 95%;" required></textarea>
+                </td>
+            </tr>
+<tr>
+                <td><b>เบอร์โทรศัพท์:</b></td>
+                <td>
+                    <input type="tel" name="phone" placeholder="เช่น 0812345678" style="padding: 5px; width: 95%;" required>
+                </td>
+            </tr>
+<tr>
+                <td colspan="2" align="center">
+                    <button type="submit" style="padding: 10px 25px; font-size: 16px; cursor: pointer;">
+                        ยืนยันการสั่งซื้อ
+                    </button>
+                </td>
+            </tr>
+</table>
+</body>
+
+</html>
